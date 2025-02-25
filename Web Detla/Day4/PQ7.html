@@ -3,60 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Checkbox</title>
+    <title>Practice Question</title>
 </head>
 <body>
-    <h2>Checkbox</h2>
-    <form action="/server">
-        <input type="checkbox" id="age" name="age" checked>
-        <label for="age">Age is 18+</label>
-        <button type="submit">Submit</button>
-    </form>
-    <hr>
-    <h2>Radio Button</h2>
-    <form action="/server">
-        <input type="radio" name="fruit" id="apple" value="apple">
-        <label for="apple">Apple</label><br><br>
-        <input type="radio" name="fruit" id="mango" value="mango">
-        <label for="mango">Mango</label><br><br>
-        <input type="radio" name="fruit" id="banana" value="banana">
-        <label for="banana">Banana</label><br><br>
-        <button type="submit">Submit</button>
-    </form>
-    <hr>
-    <h2>Choose your Subject</h2>
-    <form action="/server">
-        <input type="checkbox" name="sub" id="math" value="math">
-        <label for="math">Math</label><br><br>
-        <input type="checkbox" name="sub" id="physics" value="physics">
-        <label for="physics">Physics</label><br><br>
-        <input type="checkbox" name="sub" id="chemistry" value="chemistry">
-        <label for="chemistry">Chemistry</label><br><br>
-        <button type="submit">Submit</button>
-    </form>
-    <hr>
-    <h2>Choose Your profession</h2>
-    <form action="/server">
-        <select name="profession" id="profession">
-            <option>Select your option</option>
-            <option value="stu">Student</option>
-            <option value="dev">Developer</option>
-        </select>
-        <button type="submit">Submit</button>
-    </form>
-    <hr>
-    <h2>Range </h2>
-    <form action="/server">
-        <label for="vol">Select your volume level :</label>
-        <input type="range" name="vol" id="vol" min="0" max="100" value="70" step="5"><br><br>
-        <button type="submit">Submit</button>
-    </form>
-    <hr>
-    <h2>TextArea</h2>
-    <form action="/server">
-        <label for="feedback">Please give your feedback :</label>
-        <textarea name="feedback" id="feedback" placeholder="write your feedback here"></textarea><br><br>
-        <button type="submit">Submit</button>
-    </form>
+    <table border="black">
+        <caption>A test table with merged cells</caption>
+        <tr>
+            <td rowspan="2"></td>
+            <td colspan="2">Average</td>
+            <td rowspan="2">Red Eyes</td>
+        </tr>
+        <tr>
+            <td>Height</td>
+            <td>weight</td>
+        </tr>
+        <tr>
+            <td>Male</td>
+            <td>1.9</td>
+            <td>0.003</td>
+            <td>40%</td>
+        </tr>
+        <tr>
+            <td>Female</td>
+            <td>1.7</td>
+            <td>0.002</td>
+            <td>43%</td>
+        </tr>
+    </table>
 </body>
 </html>
