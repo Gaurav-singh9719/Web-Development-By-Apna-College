@@ -1,0 +1,114 @@
+/* important */
+h3{
+    background-color: antiquewhite !important;
+}
+/* Universal Selector */
+*{
+    font-family: "Courier New";
+}
+/* Element Selector */
+h3{
+    color: purple;
+}
+h1{
+    color: #b92b27;
+}
+/* Id Selector */
+#login{
+    background-color: white;
+}
+#signup{
+    background-color: #b92b27;
+    color: white;
+}
+.upvote{
+    background-color: green;
+    color: aliceblue;
+}
+/* div[id="myId"] p{
+    color: green;
+} */
+ /* Or we can write the above statement as given below */
+#myId{
+    color: green;
+}
+/* Class Selector */
+.post a{
+    color: purple;
+    background-color: yellow;
+}
+/* Decendent Selector */
+nav ul li a{ /*nav a{}*/
+    color: hotpink;
+}
+/* sibling combinator */
+p+h3{
+    text-decoration: overline;
+}
+.upvote+button{
+    background-color: cornflowerblue;
+    color: darkblue;
+}
+/* child combinator */
+div > input{
+    background-color: darksalmon;
+}
+/* Attribute Selector */
+input[type = "text"]{
+    color: green;
+}
+input[type = "password"]{
+    color: red;
+}
+input[type]{
+    background-color: ghostwhite;
+}
+/* id selector > class Selector > element Selector */
+/* Pseudo Classes */
+/* hover Pseudo Class */
+ button:hover{
+    background-color: aqua;
+    color: greenyellow ;
+ }
+ h3:hover{
+    text-decoration: underline;
+ }
+/* active Pseudo Class */
+button:active{
+    background-color: green;
+    color: #000;
+}
+p :active{
+    font-weight: bold;
+    background-color: aqua;
+}
+/* Checked Pseudo Class */
+input[type="radio"]:checked + label{
+    color: red;
+    font-weight: bold;
+}
+/* nth Psuedo Class */
+div:nth-of-type(2n){
+    background-color: blanchedalmond;
+}
+/* Pseudo Elements */
+/* First letter Pseudo Elements (change in First letter) */
+h1::first-letter{
+    color: green;
+}
+/* first line Pseudo elements (change in first line) */
+p::first-line{
+    color: purple;
+}
+/* Selection pseudo elements (to change in  the selected area ) */
+p::selection{
+    color: yellow;
+}
+/* cascading and specificity */
+h3{
+    background-color: yellow;
+}
+h3
+{
+    background-color: blue;
+}
