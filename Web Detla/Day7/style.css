@@ -1,0 +1,53 @@
+div{
+     height: 200px;
+     width: 500px;
+     background-color: pink;
+     /*border-width: 5px;
+     border-style: solid;
+     border-color: black;
+     /*shorthendproperty*/
+     border: 5px solid black;
+     border-top-right-radius: 50px;
+     /*border-left-color: blue;
+     border-left-style: dashed;
+     *//*border-top: 5px dashed blue;
+     */
+     padding-top: 10px;
+     margin-bottom: 25px;
+     margin-left: 20px ;
+     margin: 10px 20px 30px;
+     /* margin shorthend   */
+     /* # 1 for all 4 sides margin: 50px; */
+     /* # 2 fro top & bottom|left & right margin: 1px 2px; */
+     /* # 3 for top|left & right| bottom margin: 1px 2px 3px; */
+     /* # 4 for clockwise top| right| bottom| left margin: 1px 2px 3px 4px; */
+     
+} 
+h1{
+    /*border-width: 2px;
+    border-style: dashed;
+    border-color: green;
+    */border: 2px dashed green;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+button{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: yellow;
+    padding: 50px;
+    /* #1 shorthend for all 4 sides padding: 50px;  */
+    /* #2 shorthend for top & bottom| left & right padding:1px 2px;  */
+    /* #3 shorthend for top | left & right | bottom padding: 1px 2px 3px; */
+    /* # 4 shothend for *clockwise top | right| bottom| left padding: 1px 2px 3px 4px;  */
+
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
