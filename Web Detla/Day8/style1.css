@@ -1,0 +1,19 @@
+div{
+    height: 100px;
+    width: 300px;
+    text-align: center;
+    background-color: #7aa874;
+    margin: 10px auto;
+    box-shadow: 2px 2px 8px black;
+}
+#img{
+    height: 200px;
+    width: 400px;
+    background-color: #7aa874;
+    margin: 10px auto;
+    background-image: url(./nature.jpg);
+    /* background-size: contain; */
+    background-size: cover;
+    /* background-size: auto; */
+    color: white;
+}
